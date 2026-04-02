@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FinanceProvider } from './context/FinanceContext';
 import { Layout } from './components/layout/Layout';
 import { TransactionManager } from './components/transactions/TransactionManager';
-import { Dashboard } from './components/dashboard/Dashboard';
+import { Dashboard } from './components/dashboard/Dashboard.jsx';
 import { Insights } from './components/insights/Insights';
 
 function AppContent() {
